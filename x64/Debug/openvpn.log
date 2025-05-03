@@ -1,0 +1,49 @@
+2025-04-30 13:13:36 OpenVPN 2.6.14 [git:v2.6.14/f588592ee6c6323b] Windows [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] [DCO] built on Apr  2 2025
+2025-04-30 13:13:36 Windows version 10.0 (Windows 10 or greater), amd64 executable
+2025-04-30 13:13:36 library versions: OpenSSL 3.4.1 11 Feb 2025, LZO 2.10
+2025-04-30 13:13:36 DCO version: 1.2.1
+2025-04-30 13:13:36 TCP/UDP: Preserving recently used remote address: [AF_INET]185.184.122.74:1194
+2025-04-30 13:13:36 Socket Buffers: R=[65536->65536] S=[65536->65536]
+2025-04-30 13:13:36 UDPv4 link local: (not bound)
+2025-04-30 13:13:36 UDPv4 link remote: [AF_INET]185.184.122.74:1194
+2025-04-30 13:13:36 TLS: Initial packet from [AF_INET]185.184.122.74:1194, sid=c01de72c 5a40dfc3
+2025-04-30 13:13:36 VERIFY OK: depth=1, CN=Easy-RSA CA
+2025-04-30 13:13:36 VERIFY KU OK
+2025-04-30 13:13:36 Validating certificate extended key usage
+2025-04-30 13:13:36 ++ Certificate has EKU (str) TLS Web Server Authentication, expects TLS Web Server Authentication
+2025-04-30 13:13:36 VERIFY EKU OK
+2025-04-30 13:13:36 VERIFY OK: depth=0, CN=server
+2025-04-30 13:13:36 Control Channel: TLSv1.3, cipher TLSv1.3 TLS_AES_256_GCM_SHA384, peer certificate: 2048 bits RSA, signature: RSA-SHA256, peer temporary key: 253 bits X25519
+2025-04-30 13:13:36 [server] Peer Connection Initiated with [AF_INET]185.184.122.74:1194
+2025-04-30 13:13:36 TLS: move_session: dest=TM_ACTIVE src=TM_INITIAL reinit_src=1
+2025-04-30 13:13:36 TLS: tls_multi_process: initial untrusted session promoted to trusted
+2025-04-30 13:13:36 PUSH: Received control message: 'PUSH_REPLY,redirect-gateway def1 bypass-dhcp,dhcp-option DNS 8.8.8.8,dhcp-option DNS 1.1.1.1,route 10.8.0.1,topology net30,ifconfig 10.8.0.38 10.8.0.37,peer-id 1,cipher AES-256-GCM,protocol-flags cc-exit tls-ekm dyn-tls-crypt,tun-mtu 1500'
+2025-04-30 13:13:36 OPTIONS IMPORT: --ifconfig/up options modified
+2025-04-30 13:13:36 OPTIONS IMPORT: route options modified
+2025-04-30 13:13:36 OPTIONS IMPORT: --ip-win32 and/or --dhcp-option options modified
+2025-04-30 13:13:36 OPTIONS IMPORT: tun-mtu set to 1500
+2025-04-30 13:13:36 interactive service msg_channel=0
+2025-04-30 13:13:36 ROUTE_GATEWAY 192.168.31.1/255.255.255.0 I=18 HWADDR=2a:15:6f:04:0c:1d
+2025-04-30 13:13:36 open_tun
+2025-04-30 13:13:36 tap-windows6 device [OpenVPN TAP-Windows6] opened
+2025-04-30 13:13:36 TAP-Windows Driver Version 9.27 
+2025-04-30 13:13:36 Notified TAP-Windows driver to set a DHCP IP/netmask of 10.8.0.38/255.255.255.252 on interface {22D5DBC9-F891-45A2-915C-89B66A8CA19B} [DHCP-serv: 10.8.0.37, lease-time: 31536000]
+2025-04-30 13:13:36 Successful ARP Flush on interface [9] {22D5DBC9-F891-45A2-915C-89B66A8CA19B}
+2025-04-30 13:13:37 IPv4 MTU set to 1500 on interface 9 using SetIpInterfaceEntry()
+2025-04-30 13:13:37 Data Channel: cipher 'AES-256-GCM', peer-id: 1
+2025-04-30 13:13:37 Timers: ping-restart 120
+2025-04-30 13:13:37 Protocol options: protocol-flags cc-exit tls-ekm dyn-tls-crypt
+2025-04-30 13:13:42 TEST ROUTES: 2/2 succeeded len=1 ret=1 a=0 u/d=up
+2025-04-30 13:13:42 E:\Windows\system32\route.exe ADD 185.184.122.74 MASK 255.255.255.255 192.168.31.1
+2025-04-30 13:13:42 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=35 and dwForwardType=4
+2025-04-30 13:13:42 Route addition via ipapi [adaptive] succeeded
+2025-04-30 13:13:42 E:\Windows\system32\route.exe ADD 0.0.0.0 MASK 128.0.0.0 10.8.0.37
+2025-04-30 13:13:42 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+2025-04-30 13:13:42 Route addition via ipapi [adaptive] succeeded
+2025-04-30 13:13:42 E:\Windows\system32\route.exe ADD 128.0.0.0 MASK 128.0.0.0 10.8.0.37
+2025-04-30 13:13:42 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+2025-04-30 13:13:42 Route addition via ipapi [adaptive] succeeded
+2025-04-30 13:13:42 E:\Windows\system32\route.exe ADD 10.8.0.1 MASK 255.255.255.255 10.8.0.37
+2025-04-30 13:13:42 ROUTE: CreateIpForwardEntry succeeded with dwForwardMetric1=25 and dwForwardType=4
+2025-04-30 13:13:42 Route addition via ipapi [adaptive] succeeded
+2025-04-30 13:13:42 Initialization Sequence Completed
