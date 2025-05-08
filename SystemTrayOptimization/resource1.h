@@ -16,6 +16,18 @@
 #define IDR_RCDATA4                     112
 #define IDR_RCDATA5                     113
 #define IDR_RCDATA6                     114
+#define ID_LOGIN_WINDOW 200
+#define ID_USERNAME_EDIT 201
+#define ID_PASSWORD_EDIT 202
+#define ID_BTN_LOGIN     203
+#define ID_BTN_REGISTER  204
+#define ID_BTN_LOGIN        101
+#define ID_BTN_REGISTER     102
+#define ID_BTN_SWITCH_MODE  103
+#define ID_USERNAME_EDIT    201
+#define ID_PASSWORD_EDIT    202
+#define ID_REPEAT_EDIT      203
+
 
 // Next default values for new objects
 // 
